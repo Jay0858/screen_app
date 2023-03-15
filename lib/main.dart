@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:screens_app/new_screen_six.dart';
+import 'package:screens_app/new_screen_eight.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        fontFamily: "SF-Pro-",
+        fontFamily: "Karla",
       ),
-      home: const NewScreenSix(),
+      home: const NewScreenEight(),
     );
   }
 }

@@ -143,6 +143,16 @@ flutter:
         - asset: assets/fonts/Roboto-Regular.ttf
         - asset: assets/fonts/Roboto-Thin.ttf
 
+    - family: Karla
+      fonts:
+        - asset: assets/fonts/Karla-Bold.ttf
+        - asset: assets/fonts/Karla-ExtraBold.ttf
+        - asset: assets/fonts/Karla-ExtraLight.ttf
+        - asset: assets/fonts/Karla-Light.ttf
+        - asset: assets/fonts/Karla-Medium.ttf
+        - asset: assets/fonts/Karla-Regular.ttf
+        - asset: assets/fonts/Karla-SemiBold.ttf
+
 
 
   #         weight: 700
