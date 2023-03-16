@@ -324,9 +324,9 @@ class _NewScreenEightState extends State<NewScreenEight> {
                 ),
               ),
             ),
-            SizedBox(height: 15),
+            const SizedBox(height: 15),
             GridView.builder(
-              padding: EdgeInsets.all(15),
+              padding: const EdgeInsets.all(15),
               physics: const NeverScrollableScrollPhysics(),
               shrinkWrap: true,
               itemCount: liveList.length,
@@ -334,7 +334,7 @@ class _NewScreenEightState extends State<NewScreenEight> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Image.asset(liveList[index]['image']),
-                  SizedBox(height: 5),
+                  const SizedBox(height: 5),
                   Text(
                     liveList[index]['name'],
                     style: const TextStyle(
@@ -399,6 +399,7 @@ class _NewScreenEightState extends State<NewScreenEight> {
                 ),
               ),
             ),
+            const SizedBox(height: 80),
           ],
         ),
       ),
