@@ -171,8 +171,8 @@ class _NewScreenEightState extends State<NewScreenEight> {
       body: SafeArea(
         child: ListView(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(left: 15, top: 10),
+            const Padding(
+              padding: EdgeInsets.only(left: 15, top: 10),
               child: Text(
                 "Explore",
                 style: TextStyle(
@@ -324,17 +324,20 @@ class _NewScreenEightState extends State<NewScreenEight> {
                 ),
               ),
             ),
+            SizedBox(height: 15),
             GridView.builder(
-              physics: NeverScrollableScrollPhysics(),
+              padding: EdgeInsets.all(15),
+              physics: const NeverScrollableScrollPhysics(),
               shrinkWrap: true,
               itemCount: liveList.length,
               itemBuilder: (context, index) => Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Image.asset(liveList[index]['image']),
+                  SizedBox(height: 5),
                   Text(
                     liveList[index]['name'],
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontWeight: FontWeight.w600,
                       fontSize: 12,
                       fontFamily: "Poppins",
@@ -342,7 +345,7 @@ class _NewScreenEightState extends State<NewScreenEight> {
                   ),
                   Text(
                     liveList[index]['nametwo'],
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontWeight: FontWeight.w400,
                       fontSize: 12,
                       fontFamily: "Poppins",
@@ -350,15 +353,17 @@ class _NewScreenEightState extends State<NewScreenEight> {
                   ),
                 ],
               ),
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
+                mainAxisExtent: 190,
+                crossAxisSpacing: 15,
               ),
             ),
             const SizedBox(height: 10),
             Padding(
               padding: const EdgeInsets.only(left: 15),
               child: Row(
-                children: [
+                children: const [
                   Text(
                     "Podcasts",
                     style: TextStyle(
@@ -455,7 +460,7 @@ class _NewScreenEightState extends State<NewScreenEight> {
           fontSize: 12,
           fontWeight: FontWeight.w600,
         ),
-        selectedLabelStyle: TextStyle(
+        selectedLabelStyle: const TextStyle(
           fontFamily: "Poppins",
           color: Color(0xFF32B1F8),
           fontSize: 12,
