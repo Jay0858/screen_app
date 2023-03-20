@@ -153,6 +153,18 @@ flutter:
         - asset: assets/fonts/Karla-Regular.ttf
         - asset: assets/fonts/Karla-SemiBold.ttf
 
+    - family: SofiaSans
+      fonts:
+        - asset: assets/fonts/SofiaSans-Black.ttf
+        - asset: assets/fonts/SofiaSans-Bold.ttf
+        - asset: assets/fonts/SofiaSans-ExtraBold.ttf
+        - asset: assets/fonts/SofiaSans-ExtraLight.ttf
+        - asset: assets/fonts/SofiaSans-Light.ttf
+        - asset: assets/fonts/SofiaSans-Medium.ttf
+        - asset: assets/fonts/SofiaSans-Regular.ttf
+        - asset: assets/fonts/SofiaSans-SemiBold.ttf
+        - asset: assets/fonts/SofiaSans-Thin.ttf
+
 
 
   #         weight: 700

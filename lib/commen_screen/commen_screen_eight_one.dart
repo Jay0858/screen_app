@@ -20,7 +20,7 @@ class CommenScreenEightOne extends StatelessWidget {
               height: 80,
               image!,
             ),
-            SizedBox(height: 5),
+            const SizedBox(height: 5),
             Text(
               text!,
               style: const TextStyle(
