@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:screens_app/new_screen_nine.dart';
+import 'package:screens_app/interior_screen/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +15,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        fontFamily: "SofiaSans",
       ),
-      home: const NewScreenNine(),
+      home: const LoginScreen(),
     );
   }
 }
